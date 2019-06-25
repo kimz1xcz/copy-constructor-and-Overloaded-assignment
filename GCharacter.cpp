@@ -40,7 +40,7 @@ GCharacter & GCharacter::operator=(const GCharacter & source)
 	used = source.used;
 	toolHolder = new string[source.capacity];
 
-	copy(source.toolHolder, source.toolHolder + used, toolHolder);
+	//copy(source.toolHolder, source.toolHolder + used, toolHolder);
 
 	return *this;
 
